@@ -25,7 +25,7 @@ if($type == "add_anouncements"){ //ADD ANOUCEMENTS
 
 
 
-}else if($type == "edit_anouncements"){ //ADD ANOUCEMENTS
+}else if($type == "edit_anouncements"){ //ADD ANOUNCEMENTS
     if($_POST["year"] == "" || $_POST["section"] == "" || $_POST["subject"] == "" || $_POST["description"] == ""){
         echo "Please make sure all fields are filled in correctly.";
     }else{

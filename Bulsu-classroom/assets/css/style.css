@@ -6,7 +6,7 @@ GLOBAL PAGE
 =====================================
 */
 .front-header{
-    background-color: #763435;
+    background-color: #006600;
     border-bottom: 1px solid #441314;
 }
 .front-header .logo{
@@ -94,7 +94,7 @@ Login page
     padding: 10px;
     color: black;
     font-weight: 500;
-    border-bottom: 5px solid #763435;
+    border-bottom: 5px solid #006600;
 }
 /*
 =====================================

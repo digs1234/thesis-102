@@ -12,7 +12,7 @@ if($_GET["page"]== "login" || $_GET["page"] == "register" || empty($_GET["page"]
 <header class="w3-container w3-top w3-xlarge w3-padding front-header">
     <div class="w3-row">
         <div class="w3-col m1 w3-col s3">
-            <img class="logo" src="img/bulsu_colored.png">
+            <img class="logo" src="img/cs.png">
         </div>
         <div class="w3-col m9 w3-col s7">
             <h2>Bulsu Classroom<br>
