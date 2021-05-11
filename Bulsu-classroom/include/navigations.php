@@ -3,10 +3,10 @@ if($_GET["page"]== "login" || $_GET["page"] == "register" || empty($_GET["page"]
 ?>
 <nav class="w3-sidebar w3-bar-block w3-light-grey w3-animate-right w3-top  w3-large bulsu-sidebar" id="bulsu-sidebar">
   <a href="javascript:void()" onclick="bulsu_closed()" class="w3-bar-item w3-hover-red w3-red w3-button w3-center w3-padding-16"><i class="fa fa-angle-double-right"></i></a> 
-  <a href="?page=register" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16">Register</a> 
-  <a href="#" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16">About Us</a> 
-  <a href="#about" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16">Contact Us</a> 
-  <a href="#contact" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16">Help</a>
+  <a href="?page=register" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16"><i class="fas fa-file-signature"></i>&nbsp;&nbsp;Register</a> 
+  <a href="#" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;About Us</a> 
+  <a href="#about" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;Contact Us</a> 
+  <a href="#contact" onclick="bulsu_closed()" style="font-weight: 100;" class="w3-bar-item w3-button w3-padding-16"><i class="fas fa-question-circle"></i>&nbsp;&nbsp;Help</a>
 </nav>
 
 <header class="w3-container w3-top w3-xlarge w3-padding front-header">
@@ -15,7 +15,7 @@ if($_GET["page"]== "login" || $_GET["page"] == "register" || empty($_GET["page"]
             <img class="logo" src="img/cs.png">
         </div>
         <div class="w3-col m9 w3-col s7">
-            <h2>Bulsu Classroom<br>
+            <h2>College of Science Classroom<br>
             <span>Bulacan State University</span>
             </h2>
         </div>

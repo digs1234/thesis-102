@@ -1,6 +1,6 @@
 <?php if($details["user_type"] == "Teacher"){ ?>
 <header class="w3-container" style="padding-top:5px;">
-    <h5><i class="fas fa-file-alt fa-fw w3-text-red"></i>List Assignments</h5>
+    <h5><i class="fas fa-file-alt fa-fw w3-text-red"></i>&nbsp;Assignments List</h5>
 </header>
 <div class="w3-row-padding">
     <div class="w3-col m3">
