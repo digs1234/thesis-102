@@ -1,0 +1,132 @@
+body,h1,h2,h3,h4,h5,h6,span,a,label,th,tr {font-family: 'Montserrat', sans-serif;}
+html {scroll-behavior: smooth;}
+/*
+=====================================
+GLOBAL PAGE
+=====================================
+*/
+.front-header{
+    background-color: #763435;
+    border-bottom: 1px solid #441314;
+}
+.front-header .logo{
+    width: 80px;
+}
+.front-header h2{
+    color: white;
+    font-size: 28px;
+    line-height: 25px;
+}
+
+.front-header h2 span{
+    font-size: 14px;
+}
+input,select,textarea{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+input:focus-visible,select:focus-visible{
+    border: 3px solid #ccc;
+    outline: #ccc;
+    border-radius: 30px;
+}
+textarea:focus-visible {
+    border: 3px solid #ccc;
+    outline: #ccc;
+}
+.result{
+    margin: 10px 0px;
+    padding: 10px;
+    background: #ce1a1c;
+    color: white;
+    border-radius: 5px;
+}
+.result1{
+    margin: 10px 0px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+.bulsu-sidebar{
+    z-index:3;width:250px;
+    font-weight:bold;
+    display:none;
+    right:0;
+}
+.sidebar{
+    z-index:3;
+    width:300px;
+}
+.id{
+    color: black;
+    font-size: 13px;
+}
+tr{
+    border:1px solid #ccc;    
+}
+td{
+    border:1px solid #ccc;    
+}
+/*
+=====================================
+Main
+=====================================
+*/
+#main{
+    margin-left:300px;
+    margin-top:43px;
+}
+#main h4{
+    line-height: 1;
+}
+#main th{
+    font-weight: 500;
+}
+/*
+=====================================
+Login page
+=====================================
+*/
+#login-page{
+    margin-top: 140px;
+}
+.login-page h3{
+    padding: 10px;
+    color: black;
+    font-weight: 500;
+    border-bottom: 5px solid #763435;
+}
+/*
+=====================================
+Register page
+=====================================
+*/
+#register-page{
+    margin-top: 110px;
+}
+.register-page h3{
+    padding: 3px;
+    color: black;
+    font-weight: 500;
+    border-bottom: 3px solid #ccc;
+}
+.register-page input, .register-page select{
+    padding:5px 8px;
+    height: 35px;
+    color: #525252;
+}
+.register-page h4{
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.register-page .result{
+    margin: 3px 0px;
+    padding: 5px 10px;
+    background: #f1f1f1;
+    color: #763435;
+    border-radius: 20px;
+    font-size: 13.4px;
+    line-height: 15px;
+    display: flex;
+}
