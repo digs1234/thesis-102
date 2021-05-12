@@ -57,27 +57,27 @@ if($_GET["page"]== "login" || $_GET["page"] == "register" || empty($_GET["page"]
   </div>
   <div class="w3-bar-block">
   <?php if($details["user_type"] == "Student"){ ?>
-    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="bulsu_closed()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-    <a href="?page=home" class="w3-bar-item w3-button w3-padding <?php if($page=="home"){ echo"w3-light-grey";} ?>"><i class="fa fa-home fa-fw"></i>  Home</a>
-    <a href="?page=assignments" class="w3-bar-item w3-button w3-padding <?php if($page == "assignments"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw w3-text-blue"></i>  Assignments</a>
-    <a href="?page=quizes" class="w3-bar-item w3-button w3-padding <?php if($page == "quizes"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw w3-text-red"></i>  Quizes</a>
-    <a href="?page=exams" class="w3-bar-item w3-button w3-padding <?php if($page == "exams"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw w3-text-khaki"></i>  Exams</a>
-    <a href="?page=submitted" class="w3-bar-item w3-button w3-padding <?php if($page == "grades"){ echo"w3-light-grey";} ?>"><i class="fas fa-archive fa-fw"></i>  Submitted</a>
-    <a href="?page=settings" class="w3-bar-item w3-button w3-padding <?php if($page == ""){ echo"w3-light-grey";} ?>"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="bulsu_closed()" title="close menu"><i class="fa fa-remove fa-fw"></i>&nbsp;&nbsp;Close Menu</a>
+    <a href="?page=home" class="w3-bar-item w3-button w3-padding <?php if($page=="home"){ echo"w3-light-grey";} ?>"><i class="fa fa-home fa-fw"></i>&nbsp;&nbsp;Home</a>
+    <a href="?page=assignments" class="w3-bar-item w3-button w3-padding <?php if($page == "assignments"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw w3-text-blue"></i>&nbsp;&nbsp;Assignments</a>
+    <a href="?page=quizes" class="w3-bar-item w3-button w3-padding <?php if($page == "quizes"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw w3-text-red"></i>&nbsp;&nbsp;Quizes</a>
+    <a href="?page=exams" class="w3-bar-item w3-button w3-padding <?php if($page == "exams"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw w3-text-khaki"></i>&nbsp;&nbsp;Exams</a>
+    <a href="?page=submitted" class="w3-bar-item w3-button w3-padding <?php if($page == "grades"){ echo"w3-light-grey";} ?>"><i class="fas fa-archive fa-fw"></i>&nbsp;&nbsp;Submitted</a>
+    <a href="?page=settings" class="w3-bar-item w3-button w3-padding <?php if($page == ""){ echo"w3-light-grey";} ?>"><i class="fa fa-cog fa-fw"></i>&nbsp;&nbsp;Settings</a><br><br>
   <?php }else{ ?>
-    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="bulsu_closed()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-    <a href="?page=home" class="w3-bar-item w3-button w3-padding <?php if($page=="home"){ echo"w3-light-grey";} ?>"><i class="fa fa-home fa-fw"></i>  Home</a>
-    <a href="?page=anouncements" class="w3-bar-item w3-button w3-padding <?php if($page == "anouncements"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw"></i>  Anouncements</a>
-    <a href="?page=student-list" class="w3-bar-item w3-button w3-padding <?php if($page == "student-list"){ echo"w3-light-grey";} ?>"><i class="fas fa-users fa-fw"></i>  Students List</a>
-    <a href="?page=student-status" class="w3-bar-item w3-button w3-padding <?php if($page == "student-status"){ echo"w3-light-grey";} ?>"><i class="fas fa-user-alt fa-fw"></i>  Students Status</a>
-    <a href="?page=assignments" class="w3-bar-item w3-button w3-padding <?php if($page == "assignments"){ echo"w3-light-grey";} ?>"><i class="fas fa-file-alt fa-fw w3-text-red"></i>   List of Assignments</a>
-    <a href="?page=quizes" class="w3-bar-item w3-button w3-padding <?php if($page == "quizes"){ echo"w3-light-grey";} ?>"><i class="fas fa-file-alt fa-fw w3-text-blue"></i>  List of Quizes</a>
-    <a href="?page=exams" class="w3-bar-item w3-button w3-padding <?php if($page == "exams"){ echo"w3-light-grey";} ?>"><i class="fas fa-file-alt fa-fw w3-text-teal"></i>  List of Exams</a>
-    <a href="?page=files" class="w3-bar-item w3-button w3-padding <?php if($page == "grades"){ echo"w3-light-grey";} ?>"><i class="fas fa-archive fa-fw"></i>  List of Files</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="bulsu_closed()" title="close menu"><i class="fa fa-remove fa-fw"></i>&nbsp;&nbsp;Close Menu</a>
+    <a href="?page=home" class="w3-bar-item w3-button w3-padding <?php if($page=="home"){ echo"w3-light-grey";} ?>"><i class="fa fa-home fa-fw"></i>&nbsp;&nbsp;Home</a>
+    <a href="?page=anouncements" class="w3-bar-item w3-button w3-padding <?php if($page == "anouncements"){ echo"w3-light-grey";} ?>"><i class="far fa-bell fa-fw"></i>&nbsp;&nbsp;Anouncements</a>
+    <a href="?page=student-list" class="w3-bar-item w3-button w3-padding <?php if($page == "student-list"){ echo"w3-light-grey";} ?>"><i class="fas fa-users fa-fw"></i>&nbsp;&nbsp;Students List</a>
+    <a href="?page=student-status" class="w3-bar-item w3-button w3-padding <?php if($page == "student-status"){ echo"w3-light-grey";} ?>"><i class="fas fa-user-alt fa-fw"></i>&nbsp;&nbsp;Students Status</a>
+    <a href="?page=assignments" class="w3-bar-item w3-button w3-padding <?php if($page == "assignments"){ echo"w3-light-grey";} ?>"><i class="fas fa-file-alt fa-fw w3-text-red"></i>&nbsp;&nbsp;List of Assignments</a>
+    <a href="?page=quizes" class="w3-bar-item w3-button w3-padding <?php if($page == "quizes"){ echo"w3-light-grey";} ?>"><i class="fas fa-file-alt fa-fw w3-text-blue"></i>&nbsp;&nbsp;List of Quizes</a>
+    <a href="?page=exams" class="w3-bar-item w3-button w3-padding <?php if($page == "exams"){ echo"w3-light-grey";} ?>"><i class="fas fa-file-alt fa-fw w3-text-teal"></i>&nbsp;&nbsp;List of Exams</a>
+    <a href="?page=files" class="w3-bar-item w3-button w3-padding <?php if($page == "grades"){ echo"w3-light-grey";} ?>"><i class="fas fa-archive fa-fw"></i>&nbsp;&nbsp;List of Files</a>
 
-    <a href="#" class="w3-bar-item w3-button w3-padding <?php if($page == ""){ echo"w3-light-grey";} ?>"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+    <a href="#" class="w3-bar-item w3-button w3-padding <?php if($page == ""){ echo"w3-light-grey";} ?>"><i class="fa fa-cog fa-fw"></i>&nbsp;&nbsp;Settings</a><br><br>
+    <a href="https://meet.google.com/" target="_blank" class="w3-bar-item w3-button w3-padding <?php if($page == ""){ echo"w3-light-grey";} ?>"><i class="fas fa-video"></i>&nbsp;&nbsp;Gmeet</a>
   <?php } ?>
-  
   </div>
 </nav>
 <div class="w3-main w3-animate-opacity" id="main">
