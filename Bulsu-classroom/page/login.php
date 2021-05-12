@@ -10,7 +10,7 @@
             <input type="hidden" name="action_type" value="login" readonly>
             <div class="w3-container w3-margin-top w3-center">
                 <button type="button" class="w3-btn w3-border w3-round-xxlarge" id="submit_btn" onclick="userin();">Submit</button><br><br>
-                <a class="w3-text-blue" href="?page=register">Do you have an account? Register</a>
+                <a class="w3-text-blue" href="?page=register">Don't have an account? Register</a>
             </div>
         </form>
     </div>  

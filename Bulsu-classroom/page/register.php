@@ -80,7 +80,7 @@
                 </div>
             <div id="result"></div>
             <div class="w3-container w3-margin-top w3-center">
-                <button type="button" class="w3-btn w3-border w3-round w3-red" id="submit_btn" onclick="user_register();">Submit</button><br>
+                <button type="button" class="w3-btn w3-border w3-round w3-red" id="submit_btn" onclick="user_register();">Submit</button><br><br>
                 <a class="w3-text-blue" href="?page=login">Have an Account Already? Sign In</a>
             </div>
         </form>

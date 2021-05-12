@@ -29,7 +29,7 @@ if($_GET["page"]== "login" || $_GET["page"] == "register" || empty($_GET["page"]
 ?>
 <div class="w3-bar w3-top w3-text-white w3-large" style="z-index:3;background-color: #366e29!important;">
   <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="bulsu_open();"><i class="fa fa-bars"></i> Bulsu Classroom</button>
-  <span class="w3-bar-item w3-left w3-hide-small w3-hide-medium">Bulsu Classroom</span>
+  <span class="w3-bar-item w3-left w3-hide-small w3-hide-medium">CS Classroom</span>
   <span class="w3-bar-item w3-right">
       <a class="w3-btn w3-hover-none w3-medium"  id="logout" style="padding:0" onclick="logout()" title="logout"><i class="fas fa-lock fa-fw"></i>  Logout</a>
     </span>
